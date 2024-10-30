@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "module": "CommonJS",
+      "target": "ES2022",
+      "outDir": "dist",
+      "sourceMap": true,
+      "moduleResolution": "node",
+      "esModuleInterop": true, 
+      "strict": true, 
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true
+    },
+    "include": [
+      "src/**/*.ts"
+    ]
+  }
