@@ -7,11 +7,19 @@
     "start": "tsc && electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "build": {
+    "appId": "com.riku1227.ytv",
+    "productName": "YTV - YouTubeTV Client for Desktop",
+    "files": [
+      "dist/**/*"
+    ]
+  },
   "author": "riku1227",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.8.4",
     "electron": "^33.0.2",
+    "electron-builder": "^25.1.8",
     "typescript": "^5.6.3"
   },
   "dependencies": {
